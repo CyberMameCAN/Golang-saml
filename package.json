@@ -1,0 +1,16 @@
+{
+  "name": "smp16-saml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "saml-idp": "saml-idp --acs http://localhost:7000/auth/saml --aud mock-audience"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "saml-idp": "^1.2.1"
+  }
+}
